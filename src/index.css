@@ -1,0 +1,108 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  font-size: 16px;
+
+	background: #1e1e1e;
+  margin: 0;
+}
+
+.container {
+  max-width: 120rem;
+  margin: auto;
+  padding: 0 3rem;
+
+}
+
+img,
+picture {
+  width: 100%;
+  display: block;
+}
+
+h1 {
+  font-size: 3.8rem;
+}
+h2 {
+  font-size: 3.4rem;
+}
+h3 {
+  font-size: 3rem;
+}
+h4 {
+  font-size: 2.6rem;
+}
+
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Jura Variable", sans-serif;
+  color: #fff;
+}
+
+p,
+a {
+  font-family: "Poppins", sans-serif;
+  color: rgb(255 255 255 / 60%);
+  text-align: justify;
+}
+
+.title-p {
+  color: rgb(255 255 255 / 100%);
+  font-size: 2rem;
+}
+
+.title {
+  font-size: 5rem;
+  line-height: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.icon {
+  color: rgb(255 255 255 / 60%);
+}
+
+
+
+.button {
+  border-radius: .5rem;
+  background-color: #fff;
+  color: #1e1e1e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: .7rem 1.2rem;
+  font-size: 1.5rem;
+}
+
+.button-outlined {
+  border-radius: .5rem;
+  background-color: rgb(255 255 255 / 20%);
+  border: none;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: .7rem 1.2rem;
+  font-size: 1.5rem;
+}
+
+
+.image {
+	border-radius: 1.2rem;
+  max-height: 40rem;
+}

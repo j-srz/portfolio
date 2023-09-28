@@ -1,0 +1,73 @@
+.projects {
+	border-bottom: 1px solid rgb(255 255 255 / 10%);
+}
+
+.projects h4 {
+	line-height: 0;
+	
+}
+
+
+.project {
+	display: grid;
+	grid-template-columns: 1.2fr 2fr;
+	gap: 2rem;
+	height: 30rem;
+	margin-bottom: 3rem;
+}
+
+
+.project-content {
+	display: flex;
+	flex-direction: row;
+	gap:  2rem;
+}
+
+.line {
+	background: rgb(255 255 255 / 40%);
+	width: 0.2rem;
+	
+}
+
+
+.buttons-grid {
+	display: flex;
+	gap: 1.5rem;
+}
+
+.image-carrousel {
+	/* border-radius: 1.2rem; */
+
+	display: flex;
+	gap: 2rem;
+	overflow: hidden;
+	margin-right: -3rem;
+}
+
+
+
+.image-carrousel img {
+	height: 100%;
+	width: auto;
+}
+
+
+@media (max-width: 768px) {
+	.project {
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
+		height: auto;
+	}
+
+	.image-carrousel {
+		border-radius: 0;
+	}
+
+	.image-carrousel img {
+		height: 15rem;
+		width: auto;
+		
+	}
+}
+
