@@ -1,0 +1,44 @@
+.json-profile-section {
+    border-bottom: 1px solid rgb(255 255 255 / 10%);
+}
+
+.json-profile {
+    margin-bottom: 5rem;
+}
+
+.json-profile pre {
+  white-space: pre-wrap; 
+  overflow-x: auto; 
+  max-width: 100%; 
+  color: white;
+  font-size: 1rem;
+}
+
+.console {
+    border: 0.1rem solid rgba(255, 255, 255, 0.2);
+    border-radius: 1rem;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+
+.console p {
+    padding: 1rem;
+    margin: 0;
+    border-bottom: 1px solid rgb(255 255 255 / 10%);
+
+}
+
+.console pre {
+    font-size: 1.2rem;
+}
+
+/* 
+@media (max-width: 768px) {
+  
+}
+  
+  
+@media (max-width: 480px) {
+    
+
+} */

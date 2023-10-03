@@ -1,8 +1,8 @@
 import React from 'react'
-import { Navbar, Header, MySkillsSection } from '../components'
+import { Navbar, Header, MySkillsSection, JsonProfile, Footer } from '../components'
 import { ProjectsSection } from '../components/ProjectsSection'
 
-export const PortfolioLayout = ({ clildren }) => {
+export const PortfolioLayout = () => {
   return (
     <div>
 
@@ -10,12 +10,15 @@ export const PortfolioLayout = ({ clildren }) => {
         <Navbar />
         <Header />
         <article>
+        <JsonProfile /> 
           <MySkillsSection />
           <ProjectsSection />
         </article>
 
+        <Footer />
 
-        { clildren }
+
+
 
 
     </div>

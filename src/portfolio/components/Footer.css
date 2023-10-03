@@ -1,0 +1,23 @@
+.footer div {
+  margin: 1.5rem 0;
+  display: flex;
+  flex-direction: row;
+    justify-content: space-between;
+  gap: 1.2rem;
+  
+}
+
+
+.footer p, a {
+  margin: 0;
+}
+
+
+@media (max-width: 480px) {
+  .footer div {
+    flex-direction: column;
+
+    align-items: end;
+  }
+
+}

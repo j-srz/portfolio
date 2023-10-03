@@ -1,0 +1,19 @@
+{
+"name": "Jesus",
+"age": 17,
+"email": "jesucal68@gmail.com",
+"location": "Aguascalientes, Mexico",
+"summary": "",
+"skills": [
+    "HTML5",
+    "CSS3",
+    "JavaScript",
+    "React.js"
+],
+"socialMedia": {
+    "linkedin": 
+        "https://www.linkedin.com/in/tuperfil",
+    "github": 
+        "https://github.com/j-srz"
+}
+}
