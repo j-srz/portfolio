@@ -5,7 +5,7 @@ export const Header = () => {
   return (
     <header className="container">
       <div>
-		<h1>Hi, i’m Jesús</h1>
+		<h1>Hi, I’m Jesús</h1>
 		<p>
 			I’m a software developer in progress. I’m passionate about creating
 			innovative and attractive solutions for the web. I’m currently studying
